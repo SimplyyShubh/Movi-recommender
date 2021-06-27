@@ -57,6 +57,7 @@ def login():
     else:
         return render_template('login.html', msg=msg)
 
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     msg=""
